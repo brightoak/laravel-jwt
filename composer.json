@@ -9,9 +9,15 @@
             "email": "diego@hernandev.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/brightoak/laravel-jwt"
+        }
+    ],
     "autoload": {
         "psr-4": {
-            "Codecasts\\Auth\\JWT\\": "src/"
+            "Brightoak\\Auth\\JWT\\": "src/"
         }
     },
     "autoload-dev": {
@@ -34,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Codecasts\\Auth\\JWT\\ServiceProvider"
+                "Brightoak\\Auth\\JWT\\ServiceProvider"
             ]
         }
     }
