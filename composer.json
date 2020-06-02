@@ -1,5 +1,5 @@
 {
-    "name": "brightoak/laravel-jwt",
+    "name": "codecasts/laravel-jwt",
     "description": "Dead simple JWT Auth Provider for Laravel 5.4+",
     "type": "library",
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Brightoak\\Auth\\JWT\\": "src/"
+            "Codecasts\\Auth\\JWT\\": "src/"
         }
     },
     "autoload-dev": {
@@ -34,7 +34,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Brightoak\\Auth\\JWT\\ServiceProvider"
+                "Codecasts\\Auth\\JWT\\ServiceProvider"
             ]
         }
     }
